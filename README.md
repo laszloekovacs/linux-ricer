@@ -12,3 +12,9 @@ todo: make sure this is correct:
   curl -SL https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh -o rice.sh && ./rice.sh
 ```
 
+### stuff i want to include
+bspwm - window manager (dont forget keyborard binding app for it)
+rofi - launcher
+polybar - status bar
+xorg - x server
+
