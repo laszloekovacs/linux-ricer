@@ -18,4 +18,9 @@ todo: make sure this is correct:
 - rofi - launcher
 - polybar - status bar
 - xorg - x server
+- flameshot - screenshot
 
+- docker
+- coolify
+- vscode
+- 
