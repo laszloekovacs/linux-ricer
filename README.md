@@ -9,6 +9,6 @@ if that's done use curl to download the script and run it as sudo
 
 todo: make sure this is correct:
 ```bash
-  curl -sSL https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh -o rice.sh && ./rice.sh
+  curl -SL https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh -o rice.sh && ./rice.sh
 ```
 
