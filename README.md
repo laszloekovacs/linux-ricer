@@ -17,6 +17,7 @@ todo: make sure this is correct:
 - sxhkd - key bindings
 - rofi - launcher
 - polybar - status bar
+- lemonbar
 - xorg - x server
 - flameshot - screenshot
 
