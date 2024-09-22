@@ -13,8 +13,9 @@ todo: make sure this is correct:
 ```
 
 ### stuff i want to include
-bspwm - window manager (dont forget keyborard binding app for it)
-rofi - launcher
-polybar - status bar
-xorg - x server
+- bspwm - window manager
+- sxhkd - key bindings
+- rofi - launcher
+- polybar - status bar
+- xorg - x server
 
