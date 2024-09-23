@@ -25,4 +25,5 @@ todo: make sure this is correct:
 - docker
 - coolify
 - vscode
-- 
+
+ / create a sensible .xinitrc
