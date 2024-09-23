@@ -42,4 +42,5 @@ https://addy-dclxvi.github.io/post/configuring-urxvt/
 docker install with script
 ```
 curl -fsSL https://get.docker.com -o install-docker.sh
+chmod 700 install-docker.sh
 ```
