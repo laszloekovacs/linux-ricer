@@ -41,7 +41,9 @@ todo: make sure this is correct:
 - gcc and cmake
 - x dev libraries like opengl opencl
 - mesa utils
-
+```
+sudo apt-get install libx11-dev xserver-xorg-dev xorg-dev
+```
 
 - apt update
 - apt upgrade
