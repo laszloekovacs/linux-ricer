@@ -20,7 +20,7 @@ todo: make sure this is correct:
 - lemonbar
 - xorg - x server
 - flameshot - screenshot
-
+- xinit - for startx
 - docker
 - coolify
 - vscode
