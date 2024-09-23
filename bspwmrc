@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# set up desktops
+bspc monitor -d A B C D
+
+#set window gaps and padding
+bspc config border_width  2
+bspc config window_gap    10
+bspc config split_ratio  0.52
+
+# window tiling behavour
+bspc config automatic_scheme spiral
+
+# Restart bspwm if config updates
+bspc config external_rules_command ~/.config/bspwm/external_rules
+
+# Make the script executable
+chmod +x ~/.config/bspwm/bspwmrc
+
