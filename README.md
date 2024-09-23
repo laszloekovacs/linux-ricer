@@ -45,6 +45,15 @@ todo: make sure this is correct:
 sudo apt-get install libx11-dev xserver-xorg-dev xorg-dev
 ```
 
+khronos libs
+```
+sudo apt update
+sudo apt install mesa-common-dev libglu1-mesa-dev
+sudo apt install ocl-icd-dev opencl-headers
+sudo apt install libopenal-dev
+
+```
+
 - apt update
 - apt upgrade
 -custom Xresources (needs to be loaded in xinitrc, dont use &
