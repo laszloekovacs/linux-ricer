@@ -29,3 +29,6 @@ todo: make sure this is correct:
 - firefox
 
 / create a sensible .xinitrc
+
+- apt update
+- apt upgrade
