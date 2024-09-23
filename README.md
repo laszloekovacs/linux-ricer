@@ -24,9 +24,10 @@ todo: make sure this is correct:
 - flameshot - screenshot
 - docker
 - coolify
-- vscode
+- vscode -snap ? --classic
 - xterm
-- firefox
+- firefox -snap
+- urxvt
 
 / create a sensible .xinitrc
 
