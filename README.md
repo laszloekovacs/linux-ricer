@@ -28,7 +28,7 @@ todo: make sure this is correct:
 - xterm
 - firefox -snap
 - rxvt-unicode
-
+- sudo apt-get install rxvt-unicode xsel // xsel is a clipboard em
 / create a sensible .xinitrc
 
 - apt update
