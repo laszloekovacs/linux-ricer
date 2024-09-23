@@ -1,7 +1,20 @@
 # start a new terminal
-super + Return
+alt + Return
   xterm
 
 # close window
-super + q
+alt + q
   bspc node -c
+
+# focus change
+alt + Left
+  bspc node -f west
+
+alt + Down
+  bspc node -f south
+
+alt + Up
+  bspc node -f north
+
+alt + Right
+  bspc node -f east
