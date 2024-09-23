@@ -18,6 +18,7 @@ todo: make sure this is correct:
 ```
 
 ### stuff i want to include
+- x-server-utils = setting the background
 - bspwm - window manager
 - sxhkd - key bindings
 - rofi - launcher
