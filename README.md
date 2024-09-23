@@ -40,7 +40,7 @@ todo: make sure this is correct:
 
 - gcc and cmake
 - x dev libraries like opengl opencl
-
+- mesa utils
 
 
 - apt update
