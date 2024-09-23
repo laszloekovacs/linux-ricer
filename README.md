@@ -19,8 +19,9 @@ todo: make sure this is correct:
 - polybar - status bar
 - lemonbar
 - xorg - x server
-- flameshot - screenshot
 - xinit - for startx
+- i3wm
+- flameshot - screenshot
 - docker
 - coolify
 - vscode
