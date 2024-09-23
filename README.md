@@ -38,6 +38,11 @@ todo: make sure this is correct:
 
 / create a sensible .xinitrc
 
+- gcc and cmake
+- x dev libraries like opengl opencl
+
+
+
 - apt update
 - apt upgrade
 -custom Xresources (needs to be loaded in xinitrc, dont use &
