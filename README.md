@@ -35,3 +35,5 @@ todo: make sure this is correct:
 - apt upgrade
 
 https://www.golinuxcloud.com/install-visual-studio-code-ubuntu-22/
+
+https://addy-dclxvi.github.io/post/configuring-urxvt/
