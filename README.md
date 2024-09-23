@@ -38,3 +38,6 @@ todo: make sure this is correct:
 https://www.golinuxcloud.com/install-visual-studio-code-ubuntu-22/
 
 https://addy-dclxvi.github.io/post/configuring-urxvt/
+
+docker install with script
+curl -fsSL https://get.docker.com -o install-docker.sh
