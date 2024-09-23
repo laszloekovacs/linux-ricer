@@ -20,7 +20,7 @@ todo: make sure this is correct:
 - lemonbar
 - xorg - x server
 - xinit - for startx
-- i3-wm 
+- i3-wm - executable is i3
 - flameshot - screenshot
 - docker
 - coolify
