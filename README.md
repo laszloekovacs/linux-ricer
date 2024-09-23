@@ -26,4 +26,6 @@ todo: make sure this is correct:
 - coolify
 - vscode
 - xterm
- / create a sensible .xinitrc
+- firefox
+
+/ create a sensible .xinitrc
