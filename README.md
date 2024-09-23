@@ -7,6 +7,11 @@ Automated istallation of linux tools and settings for my taste
 
 if that's done use curl to download the script and run it as sudo
 
+tinyurl shortened url ending in main/
+```
+https://tinyurl.com/2a6lrdw7
+```
+
 todo: make sure this is correct:
 ```bash
   curl -SL https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh -o rice.sh && ./rice.sh
