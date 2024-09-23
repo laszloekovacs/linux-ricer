@@ -27,7 +27,7 @@ todo: make sure this is correct:
 - vscode -snap ? --classic
 - xterm
 - firefox -snap
-- urxvt
+- rxvt-unicode
 
 / create a sensible .xinitrc
 
