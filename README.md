@@ -29,6 +29,7 @@ todo: make sure this is correct:
 - firefox -snap
 - rxvt-unicode
 - sudo apt-get install rxvt-unicode xsel // xsel is a clipboard em
+- powerline
 / create a sensible .xinitrc
 
 - apt update
