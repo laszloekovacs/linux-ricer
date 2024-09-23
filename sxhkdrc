@@ -1,0 +1,7 @@
+# start a new terminal
+super + Return
+  xterm
+
+# close window
+super + q
+  bspc node -c
