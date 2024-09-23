@@ -33,6 +33,7 @@ todo: make sure this is correct:
 
 - apt update
 - apt upgrade
+-custom Xresources (needs to be loaded in xinitrc, dont use &
 
 https://www.golinuxcloud.com/install-visual-studio-code-ubuntu-22/
 
