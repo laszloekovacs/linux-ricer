@@ -32,3 +32,5 @@ todo: make sure this is correct:
 
 - apt update
 - apt upgrade
+
+https://www.golinuxcloud.com/install-visual-studio-code-ubuntu-22/
