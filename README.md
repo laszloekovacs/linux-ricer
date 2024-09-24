@@ -76,3 +76,6 @@ https://addy-dclxvi.github.io/post/configuring-urxvt/
 -custom Xresources (needs to be loaded in xinitrc, dont use &)
 
 setxkbmap hu
+
+install mono font
+set colors to term, i3
