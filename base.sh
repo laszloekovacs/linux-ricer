@@ -6,7 +6,7 @@ BASEURL="https://tinyurl.com/227z9te5"
 echo "this install script is meant to run only on ubuntu server, brace yourself if it fails"
 
 # run update and upgrade
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 # xorg and related
 packages=("curl" "xorg" "x11-xserver-utils" "xterm" "rxvt-unicode" "xsel" "i3")
