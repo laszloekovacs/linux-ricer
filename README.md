@@ -2,17 +2,13 @@
 
 Automated istallation of linux tools and settings for my taste
 
-## prerequisites
-- curl needs to be installed, if not you can install it with `sudo apt install curl`
-
-if that's done use curl to download the script and run it as sudo
-
-tinyurl shortened url ending in main/
+I created a tinyurl shortened url ending in main/
 ```
+https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh
 https://tinyurl.com/2a6lrdw7
 ```
 
-wget is installed by default. To get the install script, type:
+wget is installed by default. To get the install script, make it executable
 ```
 wget https://tinyurl.com/2a6lrdw7/install.sh
 chmod +x install.sh
@@ -21,7 +17,7 @@ chmod +x install.sh
 
 todo: make sure this is correct:
 ```bash
-  curl -SL https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh -o rice.sh && ./rice.sh
+   -o rice.sh && ./rice.sh
 ```
 
 ### stuff i want to include
