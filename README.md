@@ -10,7 +10,7 @@ https://tinyurl.com/227z9te5
 ## how to install
 wget is installed by default. To get the install script, make it executable. use bash, sh will not recognize arrays
 ```
-wget https://tinyurl.com/2a6lrdw7/base.sh
+wget https://tinyurl.com/227z9te5/base.sh
 chmod +x base.sh
 ./base.sh
 ```
