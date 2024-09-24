@@ -72,6 +72,14 @@ snap install --classic code
 # download config files
 wget $BASEURL/conf/.xinitrc
 
+#install edge browser and dependencies
+apt install software-properties-common apt-transport-https curl ca-certificates -y
+#get the key
+curl -fSsL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | tee /usr/share/keyrings/microsoft.gpg > /dev/null
+#integrate key into system
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main' | tee /etc/apt/sources.list.d/microsoft-edge-dev.list
+apt update
+apt install microsoft-edge-stable
 
 # end of script
 echo -e "\033[0;33mDone!\033[0m"
