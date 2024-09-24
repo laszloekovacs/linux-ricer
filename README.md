@@ -10,9 +10,9 @@ https://tinyurl.com/2a6lrdw7
 ## how to install
 wget is installed by default. To get the install script, make it executable. use bash, sh will not recognize arrays
 ```
-wget https://tinyurl.com/2a6lrdw7/rice.sh
-chmod +x rice.sh
-sudo bash rice.sh
+wget https://tinyurl.com/2a6lrdw7/base.sh
+chmod +x base.sh
+sudo bash base.sh
 ```
 
 ### xorg and related
