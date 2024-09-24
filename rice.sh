@@ -16,7 +16,7 @@ fi
 apt update && apt upgrade -y
 
 # -- xorg and related --
-packages=("curl" "xorg" "x11-server-utils" "xterm" "rxvt-unicode" "xsel" "i3")
+packages=("curl" "xorg" "x11-xserver-utils" "xterm" "rxvt-unicode" "xsel" "i3")
 
 # loop through the packages and install them
 for package in "${packages[@]}"; do

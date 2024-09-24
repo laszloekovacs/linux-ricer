@@ -18,7 +18,7 @@ sudo bash rice.sh
 ### xorg and related
 - curl
 - xorg
-- x-server-utils - for setting background
+- x11-xserver-utils - for setting background
 - xterm
 - rxvt-unicode
 - xsel - clipboard for rxvt apparently
