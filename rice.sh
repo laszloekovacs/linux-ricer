@@ -2,33 +2,6 @@
 #create a var that stores the repo url shortened
 BASEURL="https://tinyurl.com/2a6lrdw7"
 
-
-echo "this install script is meant to run only on ubuntu server, brace yourself if it fails"
-
-if [[ "$(lsb_release -i -s)" == "Ubuntu" ]] 
-then
-  echo "this script is running on ubuntu server"
-else 
-  echo "this script is not running on ubuntu server"
-fi
-
-# run update and upgrade
-apt update && apt upgrade -y
-
-# -- xorg and related --
-packages=("curl" "xorg" "x11-xserver-utils" "xterm" "rxvt-unicode" "xsel" "i3")
-
-# loop through the packages and install them
-for package in "${packages[@]}"; do
-  if ! dpkg -s "$package" > /dev/null 2>&1; then
-    echo -e "\033[0;33mInstalling $package\033[0m"
-    sudo apt install "$package" -y
-    echo -e "\033[0;33mInstalled $package\033[0m"
-  else 
-    echo -e "\033[0;32m$package is already installed\033[0m"
-  fi
-done
-
 # --- dev packages ---
 devpacks=("build-essential" "cmake" "libx11-dev" "xserver-xorg-dev" "xorg-dev" "mesa-common-dev" "libglu1-mesa-dev" "ocl-icd-dev" "opencl-headers" "libopenal-dev")
 
@@ -65,12 +38,8 @@ else
 fi
 done
 
-# install firefox, vscode
-snap install firefox
+# install vscode
 snap install --classic code
-
-# download config files
-wget $BASEURL/conf/.xinitrc
 
 #install edge browser and dependencies
 apt install software-properties-common apt-transport-https curl ca-certificates -y
