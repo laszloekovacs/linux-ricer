@@ -18,7 +18,6 @@ chmod +x rice.sh
 ### xorg and related
 - curl
 - xorg
-- xinit - for startx
 - x-server-utils - for setting background
 - xterm
 - rxvt-unicode
