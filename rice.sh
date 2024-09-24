@@ -77,9 +77,9 @@ apt install software-properties-common apt-transport-https curl ca-certificates 
 #get the key
 curl -fSsL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | tee /usr/share/keyrings/microsoft.gpg > /dev/null
 #integrate key into system
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main' | tee /etc/apt/sources.list.d/microsoft-edge-dev.list
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/edge stable main' | tee /etc/apt/sources.list.d/microsoft-edge.list
 apt update
-apt install microsoft-edge-stable
+apt install microsoft-edge-stable -y
 
 # end of script
 echo -e "\033[0;33mDone!\033[0m"
