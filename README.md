@@ -14,12 +14,6 @@ wget https://tinyurl.com/2a6lrdw7/install.sh
 chmod +x install.sh
 ```
 
-
-todo: make sure this is correct:
-```bash
-   -o rice.sh && ./rice.sh
-```
-
 ### stuff i want to include
 - x-server-utils = setting the background
 - bspwm - window manager
