@@ -28,3 +28,5 @@ chmod +x $HOME/rice.sh
 
 # download config files
 wget $BASEURL/conf/.xinitrc -O $HOME/.xinitrc
+wget $BASEURL/conf/.bash_aliases -O $HOME/.bash_aliases
+#wget $BASEURL/conf/.Xresources -O $HOME/.Xresources
