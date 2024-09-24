@@ -2,9 +2,9 @@
 Automated istallation of linux tools and settings for my taste.
 I created a tinyurl shortened url ending in main/
 ```
-https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/
+https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main
 
-https://tinyurl.com/2a6lrdw7
+https://tinyurl.com/227z9te5
 ```
 
 ## how to install

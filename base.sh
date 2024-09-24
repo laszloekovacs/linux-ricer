@@ -1,6 +1,6 @@
 #!/bin/bash
 #create a var that stores the repo url shortened
-BASEURL="https://tinyurl.com/2a6lrdw7"
+BASEURL="https://tinyurl.com/227z9te5"
 
 
 echo "this install script is meant to run only on ubuntu server, brace yourself if it fails"

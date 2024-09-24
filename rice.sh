@@ -1,6 +1,6 @@
 #!/bin/bash
 #create a var that stores the repo url shortened
-BASEURL="https://tinyurl.com/2a6lrdw7"
+BASEURL="https://tinyurl.com/227z9te5"
 
 # --- dev packages ---
 devpacks=("build-essential" "cmake" "libx11-dev" "xserver-xorg-dev" "xorg-dev" "mesa-common-dev" "libglu1-mesa-dev" "ocl-icd-dev" "opencl-headers" "libopenal-dev")
