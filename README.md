@@ -12,6 +12,7 @@ wget is installed by default. To get the install script, make it executable
 ```
 wget https://tinyurl.com/2a6lrdw7/rice.sh
 chmod +x rice.sh
+sudo bash rice.sh
 ```
 
 ### xorg and related
