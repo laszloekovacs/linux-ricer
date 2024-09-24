@@ -15,7 +15,7 @@ fi
 # run update and upgrade
 apt update && apt upgrade -y
 
-# array of desired packages
+# -- xorg and related --
 packages=("curl" "xorg" "x-server-utils" "xterm" "rxvt-unicode" "xsel" "i3")
 
 # loop through the packages and install them
@@ -29,24 +29,48 @@ for package in "${packages[@]}"; do
   fi
 done
 
-# -- Install docker --
-echo -e "\033[0;33mInstalling Docker\033[0m"
-curl -fsSL https://get.docker.com -o get-docker.sh
-# check if it downloaded
-if [ -f get-docker.sh ]; then
-  # make it executable
-  chmod +x get-docker.sh
-  # run the script
-  sh get-docker.sh
-  # remove the script
-  rm get-docker.sh
-  echo -e "\033[0;33mInstalled Docker\033[0m"
+# --- dev packages ---
+devpacks=("build-essential" "cmake" "libx11-dev" "xserver-xorg-dev" "xorg-dev" "mesa-common-dev" "libglu1-mesa-dev" "ocl-icd-dev" "opencl-headers" "libopenal-dev")
+
+for devpack in "${devpacks[@]}"; do
+  if ! dpkg -s "$devpack" > /dev/null 2>&1; then
+    echo -e "\033[0;33mInstalling $devpack\033[0m"
+    sudo apt install "$devpack" -y > /dev/null 2>&1
+    echo -e "\033[0;33mInstalled $devpack\033[0m"
+  else 
+    echo -e "\033[0;32m$devpack is already installed\033[0m"
+  fi
+done
+
+
+# -- docker --
+# check if docker is already installed
+if ! dpkg -s "docker" > /dev/null 2>&1; then
+  echo -e "\033[0;33mInstalling Docker\033[0m"
+  curl -fsSL https://get.docker.com -o get-docker.sh
+  # check if it downloaded
+  if [ -f get-docker.sh ]; then
+    # make it executable
+    chmod +x get-docker.sh
+    # run the script
+    sh get-docker.sh
+    # remove the script
+    rm get-docker.sh
+    echo -e "\033[0;33mInstalled Docker\033[0m"
+  else
+    echo -e "\033[0;32mFailed to install Docker\033[0m"
+  fi
 else
-  echo -e "\033[0;32mFailed to install Docker\033[0m"
+  echo -e "\033[0;32mDocker is already installed\033[0m"
 fi
+done
 
 
-#download config files
+
+
+# download config files
 wget $BASEURL/conf/.xinitrc
 
 
+# end of script
+echo -e "\033[0;33mDone!\033[0m"
