@@ -12,6 +12,13 @@ tinyurl shortened url ending in main/
 https://tinyurl.com/2a6lrdw7
 ```
 
+wget is installed by default. To get the install script, type:
+```
+wget https://tinyurl.com/2a6lrdw7/install.sh
+chmod +x install.sh
+```
+
+
 todo: make sure this is correct:
 ```bash
   curl -SL https://raw.githubusercontent.com/laszloekovacs/linux-ricer/refs/heads/main/install.sh -o rice.sh && ./rice.sh
