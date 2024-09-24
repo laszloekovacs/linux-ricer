@@ -29,7 +29,7 @@ for package in "${packages[@]}"; do
   fi
 done
 
-# -- Istall docker --
+# -- Install docker --
 echo -e "\033[0;33mInstalling Docker\033[0m"
 curl -fsSL https://get.docker.com -o get-docker.sh
 # check if it downloaded
