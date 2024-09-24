@@ -8,7 +8,7 @@ https://tinyurl.com/2a6lrdw7
 ```
 
 ## how to install
-wget is installed by default. To get the install script, make it executable
+wget is installed by default. To get the install script, make it executable. use bash, sh will not recognize arrays
 ```
 wget https://tinyurl.com/2a6lrdw7/rice.sh
 chmod +x rice.sh
@@ -57,7 +57,8 @@ sh install-docker.sh
 ### snap packages, firefox, edge, vscode
 vscode needs parameter --classic to install and be able to use the fs
 ```
-
+snap install --classic code
+snap install firefox
 ```
 
 ### additional notes
@@ -66,8 +67,7 @@ vscode needs parameter --classic to install and be able to use the fs
 - polybar - status bar
 - lemonbar
 - flameshot - screenshot
-- vscode -snap ? --classic
-- firefox -snap
+
 
 https://www.golinuxcloud.com/install-visual-studio-code-ubuntu-22/
 https://addy-dclxvi.github.io/post/configuring-urxvt/

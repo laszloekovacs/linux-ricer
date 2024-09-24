@@ -45,7 +45,7 @@ done
 
 # -- docker --
 # check if docker is already installed
-if ! dpkg -s "docker" > /dev/null 2>&1; then
+if dpkg -s "docker" > /dev/null 2>&1; then
   echo -e "\033[0;33mInstalling Docker\033[0m"
   curl -fsSL https://get.docker.com -o get-docker.sh
   # check if it downloaded
@@ -65,8 +65,9 @@ else
 fi
 done
 
-
-
+# install firefox, vscode
+snap install firefox
+snap install --classic code
 
 # download config files
 wget $BASEURL/conf/.xinitrc
