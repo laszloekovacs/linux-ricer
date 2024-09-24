@@ -22,5 +22,9 @@ for package in "${packages[@]}"; do
   fi
 done
 
+# download the rice script
+wget $BASEURL/rice.sh -O $HOME/rice.sh
+chmod +x $HOME/rice.sh
+
 # download config files
 wget $BASEURL/conf/.xinitrc -O $HOME/.xinitrc
