@@ -12,7 +12,7 @@ wget is installed by default. To get the install script, make it executable. use
 ```
 wget https://tinyurl.com/2a6lrdw7/base.sh
 chmod +x base.sh
-sudo bash base.sh
+./base.sh
 ```
 
 ### xorg and related
