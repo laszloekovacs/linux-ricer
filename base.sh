@@ -26,7 +26,9 @@ done
 wget $BASEURL/rice.sh 
 chmod +x $HOME/rice.sh
 
-# download config files
-wget $BASEURL/conf/.xinitrc 
-wget $BASEURL/conf/.bash_aliases 
+# download config files to sudo users home
+USER_HOME=$(eval echo ~$SUDO_USER)
+
+wget $BASEURL/conf/.xinitrc -P $USER_HOME
+wget $BASEURL/conf/.bash_aliases -P $USER_HOME
 #wget $BASEURL/conf/.Xresources -O $HOME/.Xresources
