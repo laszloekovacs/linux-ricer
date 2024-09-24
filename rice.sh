@@ -47,6 +47,6 @@ fi
 
 
 #download config files
-wget $BASEURL/.xinitrc
+wget $BASEURL/conf/.xinitrc
 
 
