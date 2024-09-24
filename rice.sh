@@ -15,6 +15,12 @@ for devpack in "${devpacks[@]}"; do
   fi
 done
 
+# node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+nvm install node
+node -v
+npm -v
+
 
 # -- docker --
 # check if docker is already installed
