@@ -16,7 +16,7 @@ fi
 apt update && apt upgrade -y
 
 # array of desired packages
-packages=("curl" "xorg" "x-server-utils" "xterm" "rxvt-unicode" "xsel")
+packages=("curl" "xorg" "x-server-utils" "xterm" "rxvt-unicode" "xsel" "i3")
 
 # loop through the packages and install them
 for package in "${packages[@]}"; do

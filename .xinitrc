@@ -1,2 +1,2 @@
 xterm &
-i3wm
+i3
